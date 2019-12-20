@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/year-input.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.8/datamaps.all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>전 세계 kpop youtube 조회수</title>
+</head>
+
+<body style="background-color:#feffe1">
+
+<div id="map">
+</div>
+
+<div id="info-selector">
+    <label id="country-input-label" for="country-input">Country</label>
+    <select class="form-control" id="country-input"></select>
+    <label id="type-input-label" for="type-input">Data</label>
+    <select class="form-control" id="type-input">
+        <option disabled>-----선택하세요-----</option>
+
+        <option>youtube 조회수</option>
+    </select>
+</div>
+
+<div id="bar">
+</div>
+
+<div id="year-selector">
+    <div class="range">
+        <label for="year-input"></label><input id="year-input" type="range" min="2015" max="2070" step="5" value="2015"
+                                               autocomplete="off">
+    </div>
+    <ul class="range-labels">
+        <li class="active selected">2018.12</li>
+        <li>2019.01</li>
+
+        <li>2019.02</li>
+
+        <li>2019.03</li>
+
+        <li>2019.04</li>
+
+        <li>2019.05</li>
+
+        <li>2019.06</li>
+
+        <li>2019.07</li>
+
+        <li>2019.08</li>
+
+        <li>2019.09</li>
+
+        <li>2019.10</li>
+
+        <li>2019.11</li>
+
+
+
+    </ul>
+</div>
+
+
+<script src="./dist/bundle.js"></script>
+
+<div id="intro">
+    <br/><br/>
+    <p style="text-align:right">모든 데이터는 구글과 youtube로 부터.</a>.</p>
+</div>
+
+<div id="footer">
+    <hr/>
+    <table style="width: 80%;margin: auto">
+        <tr>
+            <th>chung ang art&tech</a></i></th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

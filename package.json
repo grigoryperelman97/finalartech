@@ -1,0 +1,26 @@
+{
+  "name": "worldpopulation",
+  "version": "1.0.0",
+  "description": "interactive visualizaiton project",
+  
+  "main": "webpack.config.js",
+  "dependencies": {
+    "d3": "^5.14.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grigoryperelman97/grigoryperelman97-worldpopulation.git"
+  },
+  "keywords": [],
+  "author": "cheong bok",
+  "license": "chungang-univ"
+}
