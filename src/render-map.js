@@ -25,7 +25,7 @@ const properties = {
     'youtube 조회수': {
         file: 'DR2069.json',
         color: d3.interpolateReds,
-        class: 'Total Dependency Ratio'
+        class: '조회수'
     },
     'mnet': {
         file: 'DR2564.json',
